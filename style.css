@@ -1,12 +1,13 @@
 body {
   margin: 10%;
+  
 }
 main {
   border: 1px solid red;
   width: 600px;
   height: 450px;
   display: flex;
-  overflow: hidden;
+  overflow:hidden;
 }
 section {
   background-color: rgba(0, 245, 255, 0.9976365546218487);
@@ -14,30 +15,29 @@ section {
   box-sizing: border-box;
 
   border: 1px solid lightblue;
-  width: 100px;
-  height: 100px;
+  
 }
 section:nth-child(3) {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  
   align-self: center;
   width: 200px;
   height: 350px;
+  
 }
 section:nth-child(1) {
-  align-content: space-between;
+
 
   border-radius: 200px;
   margin-top: 175px;
-  margin-left: -50px;
+  margin-left: -60px;
   width: 200px;
   height: 200px;
   opacity: 0.5;
 }
 section:nth-child(2) {
-  margin-top: 20px;
-  margin-left: -50px;
-  margin-bottom: 200px;
+  margin-top: 15px;
+  margin-left:-50px;
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -52,14 +52,15 @@ section:nth-child(5) {
   opacity: 0.7;
 }
 section:nth-child(4) {
-  position: absolute;
-
-  left: 680px;
-  border-radius: 200px;
+ width: 100px;
+ height: 100px;
+ position: relative;
+  left: 100px;
+  border-radius: 100px;
   margin-top: -15px;
   opacity: 0.4;
 }
-#ortacontainer {
+#profilecontainer {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -74,28 +75,41 @@ item:first-child {
     rgba(0, 245, 255, 0.9976365546218487) 100%
   );
 }
-#bilgikutu {
+#informationbox {
   display: block;
   width: 80%;
   height: 100%;
   margin: auto;
 }
-div:nth-of-type(1) {
+#fotobox{
   border: chartreuse 1px solid;
   margin-top: -25%;
   width: 90%;
   height: 40%;
   margin-left: 5%;
+  background-color: white;
 }
-div:nth-of-type(2) {
+#accountsettings {
   border: darkgreen 1px solid;
   width: 100%;
   height: 50%;
   margin: 2% 2% 2% 0;
+
 }
-div:nth-of-type(3) {
+#privacysettings {
   border: darkkhaki 1px solid;
   width: 100%;
   height: 20%;
   margin: 2% 2% 2% 0;
+}
+#accountsettings {
+
+  
+}
+.accountdetails {
+  width: 80%%;
+  height:20% ;
+  margin:5%;
+
+
 }
