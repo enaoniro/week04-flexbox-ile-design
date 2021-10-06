@@ -1,9 +1,12 @@
 body {
   margin: 10%;
+  font-size: 10px;
+  font-family: sans-serif;
+  opacity: .8;
   
 }
 main {
-  border: 1px solid red;
+  border: 1px solid whitesmoke;
   width: 600px;
   height: 450px;
   display: flex;
@@ -14,7 +17,7 @@ section {
 
   box-sizing: border-box;
 
-  border: 1px solid lightblue;
+ 
   
 }
 section:nth-child(3) {
@@ -62,12 +65,15 @@ section:nth-child(4) {
 }
 #profilecontainer {
   background-color: white;
+  box-shadow: 0px 0px 10px 10px whitesmoke;
   display: flex;
   flex-direction: column;
 }
-item:first-child {
+#bluebox {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  height: 40%;
+  height: 30%;
   background: rgb(9, 51, 121);
   background: linear-gradient(
     90deg,
@@ -78,13 +84,13 @@ item:first-child {
 #informationbox {
   display: block;
   width: 80%;
-  height: 100%;
+  height: 70%;
   margin: auto;
 }
 #fotobox{
-  box-shadow:2px 2px 5px 1px grey;
-  border: chartreuse 1px solid;
-  margin-top: -25%;
+  box-shadow:1px 1px 1px 1px whitesmoke;
+  border: white 1px solid;
+  margin-top: -30%;
   width: 90%;
   height: 30%;
   margin-left: 5%;
@@ -98,7 +104,7 @@ item:first-child {
   width:30px;
   height: 30px;
   margin:-15px 15px 15px 50px;
-  border: indigo solid 1px;
+  box-shadow:grey 1px 1px 1px 1px ;
   border-radius:30px ;
   z-index: 1;
   background-color: white;
@@ -115,22 +121,36 @@ item:first-child {
   
   width: 5px;
   height: 5px;
-  border: hotpink 1px solid;
+ 
   border-radius: 5px;
 
 
 }
+.icon{
+  box-sizing: border-box;
+  background-color:red;
+  
+  width: 10px;
+  height: 10px;
+
+  border-radius: 10px;
+
+
+  
+
+}
 #accountsettings {
-  border: darkgreen 1px solid;
+  border:white 1px solid;
   width: 100%;
-  height: 50%;
-  margin: 2% 2% 2% 0;
+  height: 60%;
+  margin: 0% 2% 3% 0;
+  box-shadow:0px 0px 3px 3px whitesmoke;
 
 }
 #privacysettings {
   display: flex;
   justify-content: space-between;
-  border: darkkhaki 1px solid;
+  
   width: 100%;
   height: 20%;
   margin: 2% 2% 2% 0;
@@ -147,4 +167,36 @@ item:first-child {
   margin:2%;
 
 
+}
+.ok::after{
+  content: ' \276D';
+  
+}
+.ok1::after{
+  content: ' \276C';
+  color: white;
+  margin-left: 10px;
+}
+header{
+  font-size: 8px;
+  opacity: .6;
+  padding:10px 10px 10px 0px;
+
+}
+.dot{
+  margin: 15px 2px;
+  width: 2px;
+  height: 2px;
+  border-radius: 2px;
+  background-color:white;
+}
+#dots{
+ margin: auto;
+  right: -55px;
+ 
+ 
+
+
+ 
+  
 }
