@@ -82,12 +82,43 @@ item:first-child {
   margin: auto;
 }
 #fotobox{
+  box-shadow:2px 2px 5px 1px grey;
   border: chartreuse 1px solid;
   margin-top: -25%;
   width: 90%;
-  height: 40%;
+  height: 30%;
   margin-left: 5%;
   background-color: white;
+ 
+  
+  
+}
+#foto{
+ 
+  width:30px;
+  height: 30px;
+  margin:-15px 15px 15px 50px;
+  border: indigo solid 1px;
+  border-radius:30px ;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+  background-image: url(./cat.jpg);
+
+}
+#icon{
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -22px;
+  box-sizing: border-box;
+  background-color:red;
+  
+  width: 5px;
+  height: 5px;
+  border: hotpink 1px solid;
+  border-radius: 5px;
+
+
 }
 #accountsettings {
   border: darkgreen 1px solid;
@@ -97,6 +128,8 @@ item:first-child {
 
 }
 #privacysettings {
+  display: flex;
+  justify-content: space-between;
   border: darkkhaki 1px solid;
   width: 100%;
   height: 20%;
@@ -107,9 +140,11 @@ item:first-child {
   
 }
 .accountdetails {
+  display: flex;
+  justify-content: space-between;
   width: 80%%;
   height:20% ;
-  margin:5%;
+  margin:2%;
 
 
 }
