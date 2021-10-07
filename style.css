@@ -137,8 +137,7 @@ section:nth-child(4) {
   height: 20%;
   margin: 2% 2% 2% 0;
 }
-#accountsettings {
-}
+
 .accountdetails {
   display: flex;
   justify-content: space-between;
