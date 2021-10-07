@@ -2,35 +2,29 @@ body {
   margin: 10%;
   font-size: 10px;
   font-family: sans-serif;
-  opacity: .8;
-  
+  opacity: 0.8;
 }
 main {
   border: 1px solid whitesmoke;
   width: 600px;
   height: 450px;
   display: flex;
-  overflow:hidden;
+  overflow: hidden;
+  background-color: whitesmoke;
 }
 section {
   background-color: rgba(0, 245, 255, 0.9976365546218487);
 
   box-sizing: border-box;
-
- 
-  
 }
 section:nth-child(3) {
   margin-left: 80px;
-  
+
   align-self: center;
   width: 200px;
   height: 350px;
-  
 }
 section:nth-child(1) {
-
-
   border-radius: 200px;
   margin-top: 175px;
   margin-left: -60px;
@@ -40,7 +34,7 @@ section:nth-child(1) {
 }
 section:nth-child(2) {
   margin-top: 15px;
-  margin-left:-50px;
+  margin-left: -50px;
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -55,9 +49,9 @@ section:nth-child(5) {
   opacity: 0.7;
 }
 section:nth-child(4) {
- width: 100px;
- height: 100px;
- position: relative;
+  width: 100px;
+  height: 100px;
+  position: relative;
   left: 100px;
   border-radius: 100px;
   margin-top: -15px;
@@ -87,116 +81,97 @@ section:nth-child(4) {
   height: 70%;
   margin: auto;
 }
-#fotobox{
-  box-shadow:1px 1px 1px 1px whitesmoke;
+#fotobox {
+  box-shadow: 1px 1px 1px 1px whitesmoke;
   border: white 1px solid;
   margin-top: -30%;
   width: 90%;
   height: 30%;
   margin-left: 5%;
   background-color: white;
- 
-  
-  
 }
-#foto{
- 
-  width:30px;
+#foto {
+  width: 30px;
   height: 30px;
-  margin:-15px 15px 15px 50px;
-  box-shadow:grey 1px 1px 1px 1px ;
-  border-radius:30px ;
+  margin: -15px 15px 15px 50px;
+  box-shadow: grey 1px 1px 1px 1px;
+  border-radius: 30px;
   z-index: 1;
   background-color: white;
   overflow: hidden;
   background-image: url(./cat.jpg);
-
 }
-#icon{
+#icon {
   position: absolute;
   margin-left: 75px;
   margin-top: -22px;
   box-sizing: border-box;
-  background-color:red;
-  
-  width: 5px;
-  height: 5px;
- 
-  border-radius: 5px;
+  background-color: red;
 
-
-}
-.icon{
-  box-sizing: border-box;
-  background-color:red;
-  
   width: 10px;
   height: 10px;
 
   border-radius: 10px;
+}
+.icon {
+  box-sizing: border-box;
+  background-color: red;
 
+  width: 10px;
+  height: 10px;
 
-  
-
+  border-radius: 10px;
 }
 #accountsettings {
-  border:white 1px solid;
+  border: white 1px solid;
   width: 100%;
   height: 60%;
   margin: 0% 2% 3% 0;
-  box-shadow:0px 0px 3px 3px whitesmoke;
-
+  box-shadow: 0px 0px 3px 3px whitesmoke;
 }
 #privacysettings {
   display: flex;
   justify-content: space-between;
-  
+
   width: 100%;
   height: 20%;
   margin: 2% 2% 2% 0;
 }
 #accountsettings {
-
-  
 }
 .accountdetails {
   display: flex;
   justify-content: space-between;
   width: 80%%;
-  height:20% ;
-  margin:2%;
-
-
+  height: 20%;
+  margin: 2%;
 }
-.ok::after{
-  content: ' \276D';
-  
+.ok::after {
+  content: " \276D";
+  font-size: 14px;
 }
-.ok1::after{
-  content: ' \276C';
+.ok1::after {
+  content: " \276C";
   color: white;
   margin-left: 10px;
+  font-size: 14px;
 }
-header{
+header {
   font-size: 8px;
-  opacity: .6;
-  padding:10px 10px 10px 0px;
-
+  opacity: 0.6;
+  padding: 10px 10px 10px 0px;
 }
-.dot{
+.dot {
   margin: 15px 2px;
   width: 2px;
   height: 2px;
   border-radius: 2px;
-  background-color:white;
+  background-color: white;
 }
-#dots{
- margin: auto;
+#dots {
+  margin: auto;
   right: -55px;
- 
- 
-
-
- 
-  
+}
+#name{
+  text-align: center;
 }
